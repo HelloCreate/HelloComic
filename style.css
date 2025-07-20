@@ -1,0 +1,96 @@
+body {
+  background: #f0f8ff; /* cool soft blue */
+  color: #2c3e50;       /* deep navy */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #00BFFF;  /* bright sky blue */
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+nav {
+  background: #1e90ff;  /* darker accent */
+}
+
+nav a {
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+.comic-item {
+  background: #ffffff;  /* clean white card */
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid #1e90ff; /* accent border */
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.comic-cover {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.genre {
+  background: #e0f7ff;
+  color: #1e90ff;
+  font-size: 0.8rem;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.status-tag {
+  background-color: #1e90ff;
+  color: white;
+  font-size: 0.8rem;
+  padding: 3px 8px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.site-header .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.site-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.follow-text {
+  color: #1e90ff; /* 🟦 change to any color you like */
+  font-size: 1rem;
+  font-weight: 600;
+}
+.reader-img {
+  width: 100%;
+  max-width: 1000px;
+  margin: 1rem auto;
+  display: block;
+}
+#readerHeader a {
+  display: inline-block;
+  margin: 1rem;
+  color: #1e90ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+#readerHeader a:hover {
+  text-decoration: underline;
+}
